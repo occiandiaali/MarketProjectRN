@@ -8,7 +8,7 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 
 const App = () => {
   //return <WelcomeScreen />;
-  // return <ViewImageScreen />;
+  return <ViewImageScreen />;
   // return (
   //   <Card
   //     title="Lazy boy basket"
@@ -16,7 +16,7 @@ const App = () => {
   //     image={require('./app/assets/swinger.jpg')}
   //   />
   // );
-  return <ListingDetailsScreen />;
+  //return <ListingDetailsScreen />;
 };
 
 export default App;
