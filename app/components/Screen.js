@@ -7,9 +7,9 @@ import {
   View,
 } from 'react-native';
 
-export default function Screen({children}) {
+export default function Screen({children, style}) {
   return (
-    <SafeAreaView style={styles.screen}>
+    <SafeAreaView style={[styles.screen, style]}>
       <View>{children}</View>
     </SafeAreaView>
   );
@@ -18,5 +18,6 @@ export default function Screen({children}) {
 const styles = StyleSheet.create({
   screen: {
     paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+    flex: 1,
   },
 });
