@@ -17,23 +17,23 @@ const styles = StyleSheet.create({
   card: {
     borderRadius: 25,
     backgroundColor: '#fff',
-    margin: 17,
+    margin: 15,
     overflow: 'hidden',
   },
   detailsContainer: {
-    padding: 20,
+    padding: 18,
   },
   image: {
     width: '100%',
     height: 200,
   },
   subTitle: {
-    fontSize: 18,
+    fontSize: 16,
     color: 'green',
     fontWeight: 'bold',
   },
   title: {
-    fontSize: 25,
-    marginBottom: 12,
+    fontSize: 21,
+    marginBottom: 6,
   },
 });
